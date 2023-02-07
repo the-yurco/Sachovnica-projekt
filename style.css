@@ -1,63 +1,6 @@
-body {
-  display: grid;
-  place-items: center;
-}
-
-table,
-td {
-  border: 1px solid black;
-  padding: 50px;
-  position: relative;
-}
-
-tr {
-  position: relative;
-}
-
-.biele_policko {
-  background-color: white;
-}
-
-.cierne_policko {
-  background-color: black;
-}
-
-.cierny_panacik {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  background-color: black;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: grid;
-  justify-self: center;
-  align-self: center;
-  border: 1px solid white;
-}
-
-.cierny_panacik:hover {
-  background-color: rgb(59, 59, 59);
-  border: 1px solid yellow;
-  cursor: pointer;
-}
-
-.biely_panacik {
-  position: absolute;
-  top: 25px;
-  left: 25px;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: grid;
-  justify-self: center;
-  align-self: center;
-}
-
-.biely_panacik:hover {
-  background-color: rgb(232, 232, 232);
-  border: 2px dashed rgb(255, 34, 0);
-  cursor: pointer;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Monospace;
 }
